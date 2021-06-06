@@ -6,7 +6,7 @@ MIDItoWebTriggerはclusterのイベントにて使用されるウェブトリガ
 
 # 導入方法
 - Releaseページよりダウンロードし、展開
-- [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)をダウンロードして、`MIDItoWebTrigger.exe`と同じ改装に配置  
+- [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)をダウンロードして、`MIDItoWebTrigger.exe`と同じ階層に配置  
   (ファイル名は`chromedriver.exe`である必要があります)
 
 # 使用方法
@@ -45,5 +45,11 @@ DAWを使用することで、ウェブトリガーをシーケンス制御す�
 ### ここからはAbltonLiveでの解説です
 - DAWを開き、midi設定を行う  
 ![image](https://user-images.githubusercontent.com/42102311/120928944-cfdac000-c721-11eb-8bf5-bc69ab14e24f.png)
-- MIDIトラックの出力先をloopMIDIにする
+- MIDIトラックの出力先をloopMIDIにする  
+![image](https://user-images.githubusercontent.com/42102311/120929045-5db6ab00-c722-11eb-8aa1-3ec73bbe3046.png)  
 これでAbltonLive上で打ったmidiでウェブトリガーが動くようになりました
+
+
+
+# 連絡
+問題が発生した場合には[Dolphiiiin](https://twitter.com/Dolphiiiin_)へ連絡してください
