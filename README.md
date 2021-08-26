@@ -3,14 +3,28 @@
 ### 注意 これはCluster社が関わっていない非公式のツールです
 
 
-MIDItoWebTriggerはclusterのイベントにて使用されるウェブトリガーをmidiで制御するためのツールです
+MIDItoWebTriggerはclusterのイベントにて使用されるウェブトリガーをキーボードまたはmidiで制御するためのツールです
 
 # 導入方法
 - Releaseページよりダウンロードし、展開
 - [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)をダウンロードして、`MIDItoWebTrigger.exe`と同じ階層に配置  
   (ファイル名は`chromedriver.exe`である必要があります)
 
-# 使用方法
+# 使用方法 (キーボード)
+- `MIDItoWebTrigger.exe`を起動  
+- 自動的に開かれたChromeでclusterにログインし、ウェブトリガーのページを出し、JSONファイルを読み込む
+- MiditowebTriggerのウィンドウをアクティブにした状態でキーボードを入力する
+
+# キーマッピングについて
+同梱されているconfig.jsonを編集することで、キーの割り当てを変更できます。
+``` json
+"a": "1",
+ |    |
+ |   実行するWebトリガー(Webトリガー1番目から順に1 2 3を入力)
+ キーの名前
+```
+
+# 使用方法 (MIDI)
 - midiデバイスを接続
 - `MIDItoWebTrigger.exe`を起動  
   (起動時にエラーが発生した場合は、midiデバイスが接続されているかを確認してください)
