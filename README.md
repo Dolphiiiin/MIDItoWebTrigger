@@ -7,7 +7,7 @@ MIDItoWebTriggerはclusterのイベントにて使用されるウェブトリガ
 
 # 導入方法
 - Releaseページよりダウンロードし、展開
-- [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)をダウンロードして、`MIDItoWebTrigger.exe`と同じ階層に配置  
+- [ChromeDriver](https://sites.google.com/chromium.org/driver/)をダウンロードして、`MIDItoWebTrigger.exe`と同じ階層に配置  
   (ファイル名は`chromedriver.exe`である必要があります)
 
 # 使用方法 (キーボード)
