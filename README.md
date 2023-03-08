@@ -6,9 +6,18 @@
 MIDItoWebTriggerはclusterのイベントにて使用されるウェブトリガーをキーボードまたはmidiで制御するためのツールです
 
 # 導入方法
-- Releaseページよりダウンロードし、展開
-- [ChromeDriver](https://sites.google.com/chromium.org/driver/)をダウンロードして、`MIDItoWebTrigger.exe`と同じ階層に配置  
-  (ファイル名は`chromedriver.exe`である必要があります)
+## Chrome Driverのインストール
+実行にはインストールされているChromeに対応したバージョンのChromeDriverが必要です。
+ChromeのバージョンはChromeのアドレスバーで`chrome://version`にアクセスすることで確認できます。
+(バージョンは始めの数桁のことを指し、画像では104)
+
+![img](https://user-images.githubusercontent.com/42102311/184163125-5cc88aeb-6112-4738-a31b-ba0e539b7dbd.png)
+
+[ChromeDriver](https://sites.google.com/chromium.org/driver/downloads)のダウンロードページにアクセスし、Current Releasesの項目から、合致するバージョンがファイル名に含まれたものをダウンロードしてください。
+
+![img_1](https://user-images.githubusercontent.com/42102311/184163183-39bd6d52-227b-4e03-89dd-b21cea37ed3e.png)
+
+ダウンロードしたChromeDriverは、この実行ファイルと同じフォルダーに、`chromedriver.exe`という名前で保存してください。
 
 # 使用方法 (キーボード)
 - `MIDItoWebTrigger.exe`を起動  
