@@ -1,3 +1,9 @@
+## このプロジェクトはメンテナンスされていません
+W@氏によるMidiWebTriggerを代替えのツールとしてご検討ください
+https://github.com/whatwatbox/MidiWebTrigger
+
+---
+
 # MIDItoWebTrigger
 
 ### 注意 これはCluster社が関わっていない非公式のツールです
